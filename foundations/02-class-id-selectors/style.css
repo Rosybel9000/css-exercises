@@ -1,0 +1,17 @@
+
+.odd {
+    background: rgb(255, 74, 109);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#second {
+    color: rgb(74, 86, 255);
+    font-size: 36px;
+}
+.tree {
+    font-size: 24px;
+}
+#forth {
+    background: rgb(0, 255, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
