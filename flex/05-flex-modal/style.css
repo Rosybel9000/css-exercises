@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  padding: 15px;
+  display: flex;
+  flex: none;
+  gap: 15px;
 }
 
 .icon {
@@ -33,6 +38,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  min-width: 42px;
+
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -46,11 +63,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+
+  /* min-width: 24px; my awnser*/
+
+  /* or  */
+
+  /* this says don't shrink */
+  flex-shrink: 0;
+
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 8px;
 }
 
 button.continue {
